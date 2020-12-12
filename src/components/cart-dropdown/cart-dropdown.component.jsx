@@ -3,6 +3,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect'
 import {selectCartItems} from '../../redux/cart/cart.selectors'
+import { toggleCartHiiden } from '../../redux/cart/cart.actions';
 
 import {withRouter} from'react-router-dom';
 
@@ -11,7 +12,8 @@ import CartItem from '../cart-item/cart-item.component';
 
 import './cart-dropdown.styless.scss';
 
-const CartDropdown = ({cartItems, history}) => (
+
+const CartDropdown = ({cartItems, history,dispatch}) => (
     <div className = 'cart-dropdown'>
         <div className='cart-items'>
             {
@@ -24,7 +26,12 @@ const CartDropdown = ({cartItems, history}) => (
                 )
             }
         </div>
-        <CustomButton onClick = {() => history.push('/checkout')}> GO TO CHECKOUT </CustomButton>
+        <CustomButton onClick = {() => {
+            history.push('/checkout')
+            dispatch(toggleCartHiiden())
+            }}> 
+            GO TO CHECKOUT 
+        </CustomButton>
     </div>
 )
 
