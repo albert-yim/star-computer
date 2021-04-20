@@ -1,247 +1,259 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'CPU',
+    routeName: 'cpus',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
+        name: 'Intel Core i5-11400 Desktop Processor 6 Cores up to 4.4 GHz LGA1200',
+        // Intel Core i5-11400 Desktop Processor 6 Cores up to 4.4 GHz LGA1200 (Intel 500 Series & Select 400 Series Chipset) 65W
         imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        price: 204.99
       },
       {
         id: 2,
-        name: 'Blue Beanie',
+        name: 'Intel Core i5-10400F Boxed Desktop Processor CPU with 2.9GHz 12MB Advanced Cache LAG1200',
+        // Intel Core i5-10400F Boxed Desktop Processor CPU with 2.9GHz 12MB Advanced Cache LAG1200 Pin
         imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        price: 198.00
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
+        name: 'AMD Ryzen 5 3600 6-Core',
+        // AMD Ryzen 5 3600 6-Core, 12-Thread Unlocked Desktop Processor with Wraith Stealth Cooler
         imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        price: 249.95
       },
       {
         id: 4,
-        name: 'Grey Brim',
+        name: 'AMD Ryzen 5 5600X 6-core',
+        // AMD Ryzen 5 5600X 6-core, 12-Thread Unlocked Desktop Processor with Wraith Stealth Cooler
         imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        price: 388.00
       },
       {
         id: 5,
-        name: 'Green Beanie',
+        name: 'Intel Core i7-10700 Desktop Processor 8 Cores up to 4.8 GHz LGA 1200',
+        // Intel Core i7-10700 Desktop Processor 8 Cores up to 4.8 GHz LGA 1200 (Intel 400 Series Chipset) 65W, BX8070110700
         imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        price: 274.99
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
+        name: 'AMD Ryzen 5 PRO 4650G Processor',
+        // AMD Ryzen 5 PRO 4650G Processor 7nm 3.7Ghz 6 cores 12 Threads Processor only (Tray)
         imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        price: 299.99
       },
       {
         id: 7,
-        name: 'Red Beanie',
+        name: 'Intel Core i5-10400 Desktop Processor 6 Cores up to 4.3 GHz  LGA1200',
+        // Intel Core i5-10400 Desktop Processor 6 Cores up to 4.3 GHz  LGA1200 (Intel 400 Series Chipset) 65W, Model Number: BX8070110400
         imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        price: 189.99
       },
       {
         id: 8,
-        name: 'Wolf Cap',
+        name: 'AMD Ryzen 3 PRO 4350G Processor',
+        // AMD Ryzen 3 PRO 4350G Processor 7nm 3.8Ghz 4 cores 8 Threads Processor only (Tray)
         imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        price: 249.00
       },
-      {
-        id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
-      }
     ]
   },
   {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Motherboard',
+    routeName: 'motherboard',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
+        name: 'ASUS X570-Plus',
+        // ASUS AM4 TUF Gaming X570-Plus (Wi-Fi) AM4 Zen 3 Ryzen 5000 & 3rd Gen Ryzen ATX Motherboard with PCIe 4.0, Dual M.2, 12+2 with Dr. MOS Power Stage
         imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220
+        price: 229.00
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
+        name: 'MSI Z490-A PRO',
+        // MSI Z490-A PRO ProSeries ATX Motherboard (10th Gen Intel Core, LGA 1200 Socket, DDR4, Dual M.2 Slots, USB 3.2 Gen 2, 2.5G LAN, DP/HDMI)
         imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
         price: 280
       },
       {
         id: 12,
-        name: 'Black Converse',
+        name: 'MSI MEG Z490 GODLIKE Gaming Motherboard',
+        // MSI MEG Z490 GODLIKE Gaming Motherboard (E-ATX, 10th Gen Intel Core, LGA 1200 Socket, DDR4, SLI/CF, Triple M.2 Slots, Thunderbolt 3 Type-C, Wi-Fi 6, Mystic Light RGB)
         imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110
+        price: 169.99
       },
       {
         id: 13,
-        name: 'Nike White AirForce',
+        name: 'ASRock X570 Taichi',
         imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160
+        price: 192.99
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
+        name: 'ASUS ROG Strix B450-F Gaming Motherboard',
+        // ASUS ROG Strix B450-F Gaming Motherboard (ATX) AMD Ryzen 2 AM4 DDR4 DP HDMI M.2 USB 3.1 Gen2 B450
         imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
+        price: 199.00
       },
-      {
-        id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160
-      },
-      {
-        id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190
-      },
-      {
-        id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        price: 200
-      }
     ]
   },
   {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Ram',
+    routeName: 'ram',
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
+        name: 'Corsair Vengeance LED DDR4 16GB Kit (2 x 8GB)',
         imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+        price: 229.99
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
+        name: 'G.Skill Trident Z RGB DDR4 16GB Kit (2 x 8GB)',
         imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
+        price: 149.99
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
+        name: 'Kingston HyperX Predator DDR3 8GB',
         imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
+        price: 66.40
       },
       {
         id: 21,
-        name: 'Brown Shearling',
+        name: 'Kingston HyperX Fury DDR4 16GB',
         imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
+        price: 148.99
       },
       {
         id: 22,
-        name: 'Tan Trench',
+        name: 'Corsair Dominator Platinum RGB DDR4 16GB',
         imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
+        price: 254.99
       }
     ]
   },
   {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Power Supply',
+    routeName: 'power-supply',
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
+        name: 'Corsair CX450',
         imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-        price: 25
+        price: 60.00
       },
       {
         id: 24,
-        name: 'Floral Blouse',
+        name: 'Corsair RM550x',
         imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20
+        price: 114.99
       },
       {
         id: 25,
-        name: 'Floral Dress',
+        name: 'XPG Core Reactor 650W',
         imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
+        price: 129.99
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
+        name: 'be quiet! Dark Power Pro 12 1500W',
         imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
+        price: 239.90
       },
-      {
-        id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45
-      },
-      {
-        id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
-      },
-      {
-        id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
-      }
     ]
   },
   {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'GPU',
+    routeName: 'gpu',
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
+        name: 'Nvidia GeForce RTX 3090',
         imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        price: 1499.99
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
+        name: 'AMD Radeon RX 6900 XT',
         imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+        price: 999.99
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
+        name: 'AMD Radeon RX 6800 XT',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
+        price: 649.99
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
+        name: 'Nvidia GeForce RTX 3080',
         imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
+        price: 699.99
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
+        name: 'AMD Radeon RX 6800',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 579.99
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25
-      }
+        name: 'Nvidia GeForce RTX 3070',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 499.99
+      },
+      {
+        id: 36,
+        name: 'AMD Radeon RX 6700 XT',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 479.99
+      },
+      {
+        id: 37,
+        name: 'Nvidia GeForce RTX 3060 Ti',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 399.99
+      },
+      {
+        id: 38,
+        name: 'AMD Radeon RX 6700 XT',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 479.99
+      },
+      {
+        id: 37,
+        name: 'Nvidia GeForce RTX 3060 12GB',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 329.99
+      },
+      {
+        id: 36,
+        name: 'Nvidia GeForce GTX 1660 Super',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 229.99
+      },
+      {
+        id: 37,
+        name: 'Nvidia GeForce GTX 1650 Super',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 159.99
+      },
+      {
+        id: 38,
+        name: 'AMD Radeon RX 5600 XT 6GB',
+        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        price: 169.99
+      },
     ]
   }
 ];
